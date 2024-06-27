@@ -37,7 +37,7 @@ h1.surname{
     margin: 12px;
     flex-direction: row;
     width: 100%;
-    height:100%;
+    height:25%;
     border: green 2px solid;
 }
 
@@ -64,9 +64,4 @@ h1.surname{
 a.link-project{
     display: block;
     text-align: center;
-}
-
-footer.main{
-height: 25%;
-background-color: darkblue;
 }
