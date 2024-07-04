@@ -1,0 +1,21 @@
+
+
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 25%;
+}
+
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+.form-input {
+    display: block;
+}
+
+.form-error {
+    color: red;
+}

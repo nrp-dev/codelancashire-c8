@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./contact.js"></script>
+    <title>Contact Form</title>
+</head>
+<body>
+    <form id="contact-form" method="POST" action="contact.js">
+        <div class="form-row form-error" style="display:none;"></div>
+        <div class="form-row">
+          <label for="contact-form-name">Name:</label>
+          <input id="contact-form-name" class="form-input" type="text" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="contact-form-email">Email:</label>
+          <input id="contact-form-email" class="form-input" type="email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="contact-form-phone">Phone:</label>
+          <input id="contact-form-phone" class="form-input" type="tel" name="phone">
+        </div>
+        <div class="form-row">
+          <label for="contact-form-message">Message:</label>
+          <textarea id="contact-form-message" class="form-input" name="message" required cols="10" row="200"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+</body>
+</html>
