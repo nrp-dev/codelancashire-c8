@@ -1,0 +1,22 @@
+
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input-location{
+
+    border-radius: 5px;
+    font-size: 25px;
+
+
+}
+
+.weather-app-component{
+   
+    flex-direction: row;
+    height: 100px;
+    background-color: darkslateblue;
+
+    justify-content: center;
+}
