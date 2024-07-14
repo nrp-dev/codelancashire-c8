@@ -22,15 +22,16 @@ const desp = document.getElementById("weather-description")
       //console.log(response.json());
       
       if(response.ok){
-         city_header.innerHTML = '<h1>'+city+'</h1>';
-         const entries = Object.keys(data )
-         console.log(entries)
-         desp.innerHTML = '<strong>'+data+'</strong>';
+
+
 
       }
+
       
       
-    }).catch(err => {
+      
+    })
+    .catch(err => {
       alert(err);
     });
 

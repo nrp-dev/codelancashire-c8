@@ -1,0 +1,198 @@
+/**
+Imported Fonts
+**/
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("/fonts/roboto-bold-webfont.woff"),
+  url("/fonts/roboto-bold-webfont.woff2");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("/fonts/roboto-regular-webfont.woff"),
+    url("/fonts/roboto-regular-webfont.woff2");
+}
+
+
+@font-face {
+  font-family: 'Roboto-Med';
+  src: url('/fonts/roboto-medium-webfont.woff');
+  src: url('/fonts/roboto-medium-webfont.woff2')
+}
+
+
+
+  .grayscale-100 {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+
+
+.main-content-area{
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: 0 auto;
+
+  
+}
+
+.main-content-area > div{
+  flex: 1 1 20vh;
+  border: red dashed 2px;
+  
+  
+}
+
+#projects-container{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+}
+
+#projects-container > div{
+  border: solid gray 2px;
+  border-radius: 10px;
+  flex: 1 1 33%;
+}
+
+h2{
+  font-family:'Roboto-Bold';
+  font-size: 24px; ;
+
+}
+
+p, input{
+  font-family:'Roboto-Medium';
+  font-size: 24px; ;
+}
+
+
+h1#projects-container-header, h1#sample-projects-header{
+  font-family: 'Roboto-Regular';
+  font-size: 24px;
+  border: dashed purple 2px;
+}
+
+#intro-hello{
+font-family: 'Roboto-Bold';
+font-size: 20px;
+}
+
+.site-header {
+  margin: 10px;
+  display: flex;
+  font-family: "Roboto-Regular";
+  gap: 5px;
+  font-size: 24px;
+}
+
+h1.main:nth-child(1) {
+  color: red;
+}
+
+nav.top {
+  background-color: black;
+}
+
+ul.page-navigation {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  list-style: none;
+  font-family: "Roboto-Bold";
+  font-size: 14px;
+  height: 40px;
+  justify-content: end;
+}
+
+li.nav-element:hover {
+  background-color: red;
+}
+
+a.nav-element-link {
+  display: block;
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 10px;
+}
+a.github-link{
+  color:black;
+}
+
+a.github-link:visted{
+  color: #000;
+}
+
+.icon{
+  text-align: center;
+  color: white;
+}
+
+
+h2[class*="-title"]{
+  text-align: center;
+}
+
+div[class*="projects-card"]:nth-child(1){
+  
+  
+  background-color: #84cc84;
+  color:whitesmoke;
+}
+
+div[class*="projects-card"]:nth-child(2){
+
+  background-color: #F67280;
+  color:whitesmoke;
+}
+
+div[class*="projects-card"]:nth-child(3){
+
+background-color: #A7C7E7;
+color:whitesmoke;
+}
+
+.posts{
+  display: none;
+}
+
+
+.post-stats-container{
+  display: flex;
+  width: 50vw;
+  flex-direction: row;
+  gap: 10px;
+}
+
+#like-icon{
+  color: #063791;
+}
+
+#dislike-icon{
+  color: red;
+}
+
+#like-icon:hover, #dislike-icon:hover{
+  cursor: pointer;
+}
+
+footer.main{
+  background-color: black;
+  height: 40px;
+  margin-top: 10px;
+}
+
+#contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
